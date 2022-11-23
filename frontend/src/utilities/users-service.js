@@ -20,7 +20,7 @@ export async function login(userData) {
   const response = await usersAPI.login(userData);
 
   // Retrieve token
-  const data = response.data;
+  const data = await response.data;
 
   // console.log(data);
 

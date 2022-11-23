@@ -35,6 +35,7 @@ export async function login(userData) {
   if (response.status === "success") {
     return response;
   } else {
+    console.log(response);
     throw new Error("Invalid email or password");
   }
 }

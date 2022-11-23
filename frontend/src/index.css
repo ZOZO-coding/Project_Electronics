@@ -233,11 +233,13 @@ button[type="submit"] {
   top: 150px;
   left: 20px;
   width: 150px;
+  font-size: 1.25rem;
 }
 
 .side-bar div {
   cursor: pointer;
   margin: 15px 5px;
+  transition: 0.5s;
 }
 
 .side-bar div:hover {
